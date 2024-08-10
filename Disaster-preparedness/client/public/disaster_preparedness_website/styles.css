@@ -3,7 +3,6 @@ body {
 }
 
 #hero {
-    background: url('background.jpeg') no-repeat center center/cover;
     height: 100vh;
     color:black;
 }
@@ -55,4 +54,43 @@ footer a:hover {
 .btn-secondary {
     background-color: #6c757d;
     border-color: #6c757d;
+}
+
+#alerts {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.alert {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+#alerts h2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact form {
+    padding: 100px;
+}
+
+.contact h1 {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.contact p {
+    padding-left: 100px;
+    padding-right: 100px;
 }
